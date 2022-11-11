@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Slideshow</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Big+Shoulders+Display family=Big Shoulders Display" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body>
+  
+  <div class="slideshow">
+        <id="left">
+        <id="right">
+        <h1>Realtor</h1>
+        <p>Get the Affordable and Comfy Home You Want From Us</p>
+
+        <div class="slider">
+            <button id="prev" class="prev" type="button" onclick="plusDivs(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <div class="slide">
+                <img src="large-home.jpg" class="image" alt="">
+                <div class="slide_text">
+                    <h1>Front View</h1>
+                    <p>Home, A place where we find peace</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="interior.jpg" class="image" alt="">
+                <div class="slide_text">
+                    <h1>Interior</h1>
+                    <p>Checkout the Interior,<br> It is designed to meet your expectations</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="bedroom.jpg" class="image" alt="">
+                <div class="slide_text">
+                    <h1>Bedroom</h1>
+                    <p>A nice and beautiful place to rest at night after a hectic day</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="kitchen.jpg" class="image" alt="">
+                <div class="slide_text">
+                    <h1>Kitchen</h1>
+                    <p>Where every delicious meal is made</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="nursery.jpg" class="image" alt="">
+                <div class="slide_text">
+                    <h1>Nursery Crib</h1>
+                    <p>Babies are not left out in the design</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="home.jpg" class="image" alt="">
+                <div class="slide_text">
+                    <h1>Sitting Room</h1>
+                    <p>A Place to hang out for family time or watch movies</p>
+                </div>
+            </div>
+
+            <button id="next" class="next" type="button" onclick="plusDivs(1)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+    </div>
+
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
